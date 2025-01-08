@@ -4,7 +4,7 @@
 }
 
 .columns img {
-  width: 100%;
+  width: 80%;
 }
 
 .columns > div > div {
@@ -21,7 +21,7 @@
 
 @media (width >= 900px) {
   .columns > div {
-    align-items: center;
+    align-items: end;
     flex-direction: unset;
     gap: 24px;
   }
